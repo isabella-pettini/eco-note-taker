@@ -1,6 +1,7 @@
 // Dependencies
 const route = require('express').Router();
 const path = require('path');
+// const app = express();
 
 // Get routes
 route.get("/notes", (req, res) => {
@@ -17,4 +18,4 @@ route.get("*", (req, res) => {
 
 
 
-module.exports.route;
+module.exports = route;

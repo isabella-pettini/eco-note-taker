@@ -5,7 +5,7 @@ const saveNote = require('../server.js');
 // Get route for retrieving notes
 route.get("/notes", function (req, res) {
     saveNote
-            .getNotes()
+            .retrieveNotes()
             .then(notes => res.json(notes))
             .catch(err => res.status(500).json(err));
 });
@@ -18,4 +18,4 @@ route.post("/notes", (req, res) => {
             .catch(err => res.status(500).json(err));
 });
 
-module.exports.route;
+module.exports = route;
