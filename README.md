@@ -1,19 +1,38 @@
-# eco-note-taker
+# Eco Note Taker
+![License](https://img.shields.io/badge/license-MIT-green)
 
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+## Description
+Forget the old and non-eco friendly way of taking notes. Now you can create, store and delete notes right from your web browser! A simple website built with Node.js and Express.js will have you saving trees in no time.
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+## Table Of Contents 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+## Installation
+N/a
+
+## Usage
+This eco friendly note taking page will allow you to be able to keep record of all of your To Do's and friendly reminders without having to keep buying note books. Once you have clicked "get started" you can enter your note title and your note and easily keep track of everything you need. If you decide you no longer need that note you can simply delete it with a press of a button. 
+
+[HerokuSite](https://eco-note-taker.herokuapp.com/)
+
+## License
+This project is covered under the MIT license. Please refer to this link to read the license, permissions, conditions and limitations.
+[License: MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+N/A
+
+## Tests
+N/A
+
+## Questions
+Please reach me by GitHub or Email below with any additional questions about this project:
+
+GitHub: https://github.com/isabella-pettini
+
+Email:  isabellapierce93@gmail.com
